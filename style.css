@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#screen{
+    font-size: 2.8rem;
+}
+
+input{
+    width:  200px;
+    height: 30px;
+    padding: 19px 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#btn
+{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    border-radius: 10px;
+    
+}
